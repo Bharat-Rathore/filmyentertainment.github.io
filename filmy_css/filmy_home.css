@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ====================================================================================== */
+/* ==============================    Filmy Home Css      ============================== */
+/* ====================================================================================== */
+
+/* =====================Filmy Entertainment Navbar Code===================== */
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.border-box {
+    border-style: solid;
+    border-width: thin;
+    border-color: #fbab29
+}
+
+.navbar{
+    background-color: #0e0000;
+}
+
+.weblogo{
+    width: 250px;
+}
+
+
+
+/* ===================== Section 1 Filmy Home ===================== */
+
+.carousel-caption{
+    color: #fff;
+    position: absolute;
+    top: 38%;
+  }
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+
+
+/* ===================== Section 2 Filmy Home ===================== */
+
+.filmy_home_section2_div_banner2{
+    background: url(/filmy_image/filmy_home_img2.jpg);
+    width: 100%;
+    height: 650px;
+}
+
+.filmy_home_section2_div_a{
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    background-color : #fbac29; 
+    cursor: pointer;
+    border-radius: 0.25rem; 
+    font-size: 22px;
+    font-weight: bolder;  
+    width: 100%;
+    color: black;
+}
+
+.home_section2_pt{
+    padding-top: 10%;   
+}
+
+
+
+/* ===================== Section 3 Filmy Home ===================== */
+
+.filmy_home_section3_div_banner3{
+    background: url(/filmy_image/filmy_home_img3.jpg);
+    width: 100%;
+}
+
+.filmy_home_card_p{
+    font-size: 20px;
+    font-weight: 500; 
+}
+
+.card_bg_color{
+    background-color: #c3dad7;
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+    height: 100%;
+    width: 100%;   
+}
+
+
+
+/* ===================== Section 4 Or Footer Filmy Home ===================== */
+
+.main_footer{
+    background: #020306f0;
+    padding: 50px;
+    color: #fff;
+}
+
+.home_section5_h2{  
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+
+.home_section5_p{
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    text-align: justify;
+    font-family: 'Montserrat',sans-serif;
+}
+
+
+
+/* ====================================================================================== */
+/* ==============================    Filmy Latest Css      ============================== */
+/* ====================================================================================== */
+
+/* ===================== Navbar code is same ===================== */
+
+
+.filmy_latest_section3_p{
+    font-size: 32px;
+    font-weight: 700;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+
+.filmy_latest_section3_div_a{
+    height: 400px;
+    width: 100%;
+
+}
+
+
+
+
+
+/* ===================== Media Query For Footer ===================== */
+@media(max-width:405px){
+    .home_section5_h2{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media(max-width:768px){
+    .filmy_latest_section3_div_a{
+        height: 280px;
+    }
+}
+
+@media(max-width:576px){
+    /* .filmy_latest_section3_div_a{
+        width: 70%;
+    } */
+
+    /* .container{
+        padding: 0px 110px;
+    } */
+}
+
+/* @media(max-width:350px){
+    .container{
+        padding: 0px 0px;
+    }
+} */
